@@ -1,0 +1,53 @@
+/** @format */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;500;&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+form {
+  max-width: 600px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 17px;
+}
+
+/* styles for inputs */
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input_item {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.input_item label {
+  margin: 8px 0px;
+  font-weight: 600;
+}
+
+.input_item input {
+  height: 43px;
+  width: 270px;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+}
+
+section div input {
+  height: 43px;
+  padding: 6px;
+  margin-bottom: 10px;
+}
